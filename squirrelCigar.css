@@ -1,0 +1,173 @@
+
+.party, .reviewSquirrel {
+	position: relative;
+	width: 100%;
+}
+
+
+h1 {
+	position: absolute;
+	left: 78px;
+	right: 0;
+	top: 59px;
+	bottom: 0;
+	background-color: black; 
+	opacity: 0.4;
+	width: 56%;
+	height: 6%;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	border: 3px solid white;
+	padding-top: 2px;
+}
+
+
+h2 {
+	position: absolute;
+	left: 128px;
+	right: 0;
+	top: 134px;
+	bottom: 0;
+	background-color: black; 
+	opacity: 0.4;
+	width: 45%;
+	height: 4.5%;
+	color: white;
+	text-align: center;
+	border-radius: 5px;
+	border: 3px solid white;
+	font-size: 19px;
+	padding-top: 6px;
+}
+
+
+.book {
+	position: absolute;
+	left: 78%;
+	right: 0;
+	top: 60%;
+	bottom: 0;
+	width: 19%;
+	opacity: 0.75;
+	border-radius: 3px;
+	transform: rotate(10deg);
+}
+
+
+.posts {
+	position: absolute;
+	left: 5%;
+	right: 75%;
+	top: 81%;
+	bottom: 0;
+	width: 65%;
+	height: 17%;
+	overflow: auto;
+	background: repeating-radial-gradient(
+	  circle,
+	  black,
+	  black 10px,
+	  #4b026f 10px, 
+	  #4b026f 20px);
+	opacity: 0.6;
+	color: white;
+	border-radius: 55px;
+	padding-left: 65px;
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+
+
+.drop {
+	position: absolute;
+	left: 85%;
+	top: 54%;
+	transform: rotate(10deg);
+	animation-name: flash;
+	animation-duration: 1.5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	background: purple;
+	padding: 5px 10px;
+	color: #fff;
+	border: 3px dashed black;
+	border-radius: 3px;
+	opacity: 0.5;
+	font-weight: bold;	
+}
+
+
+p {
+	margin: 0;
+	padding-bottom: 25px;
+}
+
+
+.cheers {
+	position: absolute;
+	top: 9%;
+	left: 20%;
+	width: 36%;
+}
+
+
+.l1 {
+	position: absolute;
+	top: 25%;
+	left: 10%;
+	width: 300px;
+	height: 20px;
+	font-weight: bold;
+	border-radius: 5px;	
+}
+
+
+.l2 {
+	position: absolute;
+	top: 30%;
+	left: 13.3%;
+	width: 300px;
+	height: 20px;
+	font-weight: bold;
+	border-radius: 5px;	
+}
+
+
+.l3 {
+	position: absolute;
+	top: 35%;
+	left: 12%;
+	width: 300px;
+	height: 20px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+
+
+.l4 {
+	position: absolute;
+	top: 40%;
+	left: 13.5%;
+	width: 300px;
+	height: 20px;
+	font-weight: bold;
+	border-radius: 5px;	
+}
+
+
+.sub {
+	position: absolute;
+	top: 45%;
+	left: 19.5%;
+	font-weight: bold;	
+	animation-name: flash;
+	animation-duration: 1.5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	background: purple;
+	padding: 3px 6px;
+	color: #fff;
+	border: 3px dotted black;
+	border-radius: 3px;
+}
